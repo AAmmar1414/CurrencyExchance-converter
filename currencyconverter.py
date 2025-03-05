@@ -107,7 +107,7 @@ def main():
     # Footer
     st.markdown("""
         <div style='text-align: center; margin-top: 30px; padding: 20px; background: #000000; border-radius: 10px; color: #FFFFFF;'>
-            <p>Made with Codehub with Ammar❤️ | Current time: {}</p>
+            <p>Made by Codehub with Ammar❤️ | Current time: {}</p>
         </div>
     """.format(datetime.now().strftime("%Y-%m-%d %H:%M:%S")), unsafe_allow_html=True)
 
